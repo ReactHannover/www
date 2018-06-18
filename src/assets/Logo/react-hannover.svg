@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.64 268.59">
+    <defs>
+        <style>
+            .cls-1{font-size:30.48px;font-family:Lato-Medium, Lato;letter-spacing:0.3em;}.cls-1,.cls-4{fill:#fff;}.cls-2{letter-spacing:0.28em;}.cls-3{letter-spacing:0.3em;}.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{fill:none;stroke-miterlimit:10;}.cls-5,.cls-6,.cls-9{stroke:#fff;}.cls-5{stroke-width:4px;}.cls-6,.cls-7{stroke-width:0.75px;}.cls-7{stroke:#303030;}.cls-8{stroke:#1a9673;}
+        </style>
+    </defs>
+    <title>
+        react-logo-white-without-bg
+    </title>
+    <text class="cls-1" transform="translate(11.66 231.58)">
+        HANN<tspan x="127.34" y="0" class="cls-2">O</tspan><tspan x="160.31" y="0" class="cls-3">VER</tspan>
+    </text>
+    <g id="ellipse-container">
+        <circle cx="134.32" cy="134.07" r="10.15" class="cls-4"/>
+        <ellipse cx="134.32" cy="134.07" class="cls-5" rx="54.44" ry="20.79"/>
+        <ellipse cx="354.08" cy="199.62" class="cls-5" rx="20.79" ry="54.44" transform="translate(-272.14 138.24) rotate(-30)"/>
+        <ellipse cx="354.08" cy="199.62" class="cls-5" rx="54.44" ry="20.79" transform="translate(-215.6 340.91) rotate(-60)"/>
+    </g>
+    <path d="M238.08,263.56a132.32,132.32,0,1,1,232,0" class="cls-5" transform="translate(-219.77 -65.55)"/>
+    <path d="M354.08,267.15" class="cls-5" transform="translate(-219.77 -65.55)"/>
+    <path d="M354.08,68.35" class="cls-5" transform="translate(-219.77 -65.55)"/>
+    <path d="M354.08,310.14" class="cls-6" transform="translate(-219.77 -65.55)"/>
+    <path d="M354.08,310.14" class="cls-6" transform="translate(-219.77 -65.55)"/>
+    <path d="M354.08,266" class="cls-6" transform="translate(-219.77 -65.55)"/>
+    <path d="M354.08,266" class="cls-6" transform="translate(-219.77 -65.55)"/>
+    <path d="M354.08,199.86" class="cls-5" transform="translate(-219.77 -65.55)"/>
+    <path d="M425.42,310.92a132.44,132.44,0,0,1-142.67.73" class="cls-5" transform="translate(-219.77 -65.55)"/>
+    <path d="M354.08,263.56" class="cls-7" transform="translate(-219.77 -65.55)"/>
+    <path d="M354.08,263.56" class="cls-7" transform="translate(-219.77 -65.55)"/>
+    <path d="M354.08,310.88" class="cls-8" transform="translate(-219.77 -65.55)"/>
+    <path d="M354.08,311.68" class="cls-8" transform="translate(-219.77 -65.55)"/>
+    <path d="M354.08,134.49" class="cls-9" transform="translate(-219.77 -65.55)"/>
+</svg>
