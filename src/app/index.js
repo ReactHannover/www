@@ -3,4 +3,7 @@ import ReactDOM from 'react-dom'
 
 import { Application } from './components/Application/Application'
 
-ReactDOM.render(<Application />, document.querySelector('#root'))
+ReactDOM.render(
+  <Application />,
+  document.querySelector('#root')
+)

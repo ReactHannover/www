@@ -1,5 +1,6 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { injectGlobal } from 'styled-components'
+import Particles from 'react-particles-js'
 
 import { Header } from '../Header/Header'
 import { Talks } from '../Talks/Talks'
@@ -11,6 +12,7 @@ export class Application extends React.PureComponent {
   render () {
     return (
       <Wrapper>
+        <Particles className='particles' />
         <Header />
         <Content>
           <Talks />
@@ -23,12 +25,23 @@ export class Application extends React.PureComponent {
   }
 }
 
+injectGlobal`
+  #root {
+    background: linear-gradient(to bottom,#61dafb,#0071bc);
+  }
+
+  .particles {
+    position: absolute;
+  }
+`
+
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to bottom, #61dafb, #0071bc);
   color: #fff;
   font-family: 'Open Sans';
+  margin: 0 auto;
+  max-width: 1080px;
 `
 
 const Content = styled.div`
