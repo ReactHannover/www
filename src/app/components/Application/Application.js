@@ -32,6 +32,7 @@ injectGlobal`
 
   .particles {
     position: absolute;
+    z-index: 1;
   }
 `
 

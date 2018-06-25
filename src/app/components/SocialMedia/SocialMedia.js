@@ -1,13 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
+import Twitter from '../../../assets/SocialMedia/twitter.svg'
+import Facebook from '../../../assets/SocialMedia/facebook.svg'
 
 export class SocialMedia extends React.PureComponent {
   render () {
     return (
       <SocialMediaWrapper>
-        <Title>Social Media</Title>
-        <Media>Twitter</Media>
-        <Media>Facebook</Media>
+        <Title>Follow us on</Title>
+        <Media>
+          <Twitter width='32' height='32' />
+          <Facebook width='32' height='32' />
+        </Media>
       </SocialMediaWrapper>
     )
   }

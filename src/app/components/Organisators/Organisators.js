@@ -11,6 +11,16 @@ export class Organisators extends React.PureComponent {
           <Name>Name</Name>
           <Info>Info</Info>
         </Orgarnisator>
+        <Orgarnisator>
+          <Picture>Pic</Picture>
+          <Name>Name</Name>
+          <Info>Info</Info>
+        </Orgarnisator>
+        <Orgarnisator>
+          <Picture>Pic</Picture>
+          <Name>Name</Name>
+          <Info>Info</Info>
+        </Orgarnisator>
       </OrganisatorsWrapper>
     )
   }
@@ -18,10 +28,16 @@ export class Organisators extends React.PureComponent {
 
 const OrganisatorsWrapper = styled.div`
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 `
-const Title = styled.h2``
+const Title = styled.h2`
+  flex: 1 0 100%;
+`
 
-const Orgarnisator = styled.div``
+const Orgarnisator = styled.div`
+  flex: 1 0 0%;
+`
 
 const Picture = styled.div``
 
